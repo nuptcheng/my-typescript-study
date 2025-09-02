@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "console": "none",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Debug TS with tsx",
+            // 主要是这里
+            "runtimeArgs": [
+                "--import",
+                "tsx"
+            ],
+            "cwd": "${workspaceFolder}",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            // 后盾人
+            "program": "${workspaceFolder}/src-hou-dun-ren/chapter-01/viedo06/demo06.ts",
+            "env": {
+                "NODE_ENV": "development"
+            }
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "my-typescript-study",
+  "version": "1.0.0",
+  "description": "typescript学习",
+  "type": "module",
+  "main": "my-typescript-study.ts",
+  "private": true,
+  "bin": "src/app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "tsx watch src/app.ts",
+    "build": "tsup",
+    "start": "node dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^11.1.0",
+    "dayjs": "^1.11.18",
+    "fastify": "^5.5.0",
+    "influx": "^5.10.0",
+    "mariadb": "^3.4.5",
+    "mqtt": "^5.14.0",
+    "redis": "^5.8.2",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}
