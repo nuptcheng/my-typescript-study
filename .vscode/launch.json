@@ -8,18 +8,22 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Debug TS with tsx",
+            "name": "Debug TS (ts-node register)",
             // 主要是这里
+            // "runtimeArgs": [
+            //     "--loader",
+            //     "ts-node/esm"
+            // ],
             "runtimeArgs": [
                 "--import",
-                "tsx"
+                "${workspaceFolder}/register-ts-node-esm.mjs"
             ],
             "cwd": "${workspaceFolder}",
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            // 后盾人
-            "program": "${workspaceFolder}/src-hou-dun-ren/chapter-01/viedo06/demo06.ts",
+            // 阮一峰
+            "program": "${workspaceFolder}/src-ruan-yi-feng/chapter-01/demo.ts",
             "env": {
                 "NODE_ENV": "development"
             }

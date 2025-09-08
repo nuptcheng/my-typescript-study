@@ -11,6 +11,7 @@
   },
   "scripts": {
     "dev": "tsx watch src/app.ts",
+    "dev-node-ts": "node --import ./register-ts-node-esm.mjs ./src-ruan-yi-feng/chapter-01/demo.ts",
     "build": "tsup",
     "start": "node dist/app.js"
   },
@@ -25,6 +26,7 @@
     "mariadb": "^3.4.5",
     "mqtt": "^5.14.0",
     "redis": "^5.8.2",
+    "ts-node": "^10.9.2",
     "winston": "^3.17.0"
   },
   "devDependencies": {
