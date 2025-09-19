@@ -1,7 +1,7 @@
 <!--
  * @Author: BecomeBamboo
  * @Date: 2025-09-02 20:30:40
- * @LastEditTime: 2025-09-07 16:12:27
+ * @LastEditTime: 2025-09-10 12:11:02
  * @Description: 学习进度
 -->
 
@@ -10,7 +10,7 @@
 
 [x] 02-基本用法
 
-[ ] 03-any类型
+[x] 03-any类型
 
 [ ] 04-类型系统
 
